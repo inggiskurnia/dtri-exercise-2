@@ -2,18 +2,18 @@ public class Main {
     public static void main(String[] args) {
 
         //First question
-        Temperature.fahrenheitToCelcius(50);
+        Temperature.fahrenheitToCelcius();
 
         //Second question
-        Distance.centimeterToKilometer(100000);
+        Distance.centimeterToKilometer();
 
         //Third question
-        Number.findOddEven(2);
+        Number.findOddEven();
 
         //Forth question
-        SearchString.removeString("Hello World", "ell");
+        SearchString.removeString();
 
         //Fifth question
-        Palindrome.searchPalindrome("ok");
+        Palindrome.searchPalindrome();
     }
 }

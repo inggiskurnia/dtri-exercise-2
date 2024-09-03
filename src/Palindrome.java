@@ -1,6 +1,13 @@
+import java.util.Scanner;
+
 public class Palindrome {
-    public static void searchPalindrome (String str) {
+    public static void searchPalindrome () {
         boolean palindrome = false;
+
+        Scanner myObj = new Scanner(System.in);
+        System.out.println("Input some string to be checked as palindrome");
+
+        String str = myObj.nextLine();
         int lenght = str.length();
 
         for (int i=0; i<lenght;i++) {

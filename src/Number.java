@@ -8,6 +8,6 @@ public class Number {
         int number = myObj.nextInt();
 
         System.out.println("The number is even : " + (number % 2 == 0));
-        System.out.println("test");
+        
     }
 }

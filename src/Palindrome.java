@@ -8,13 +8,15 @@ public class Palindrome {
         System.out.println("Input some string to be checked as palindrome");
 
         String str = myObj.nextLine();
-        int lenght = str.length();
+        int length = str.length();
 
-        for (int i=0; i<lenght;i++) {
-            if (str.charAt(i) != str.charAt(lenght - 1 - i)) {
+        for (int i=0; i<length;i++) {
+            if (str.charAt(i) != str.charAt(length - 1 - i)) {
                 palindrome = false;
             } else palindrome = true;
         }
         System.out.println("The string is palindrome : " + palindrome);
+
+        System.out.println("test print");
     }
 }
